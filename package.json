@@ -1,0 +1,34 @@
+{
+  "name": "configuring-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc -v",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "webpack": "webpack",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarawrmas/configuring-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarawrmas/configuring-typescript/issues"
+  },
+  "homepage": "https://github.com/sarawrmas/configuring-typescript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@tsconfig/node10": "^1.0.8",
+    "@tsconfig/recommended": "^1.0.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.2.4",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
